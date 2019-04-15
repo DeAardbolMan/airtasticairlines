@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme:300|Montserrat');
+
+
+body {
+    background: url(images/rettungsbrett.jpg);
+	
+    background-size: cover;
+    background-attachment: fixed;
+	font-family: 'BioRhyme', serif;
+    color: #212020;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+
+}
+h2 {
+	font-size: 27px;
+}
+h3 {
+	font-size: 20px;
+}
+main {
+	border: 10px solid rgba(15,15,15,0.3);
+	border-left: none;
+	border-right: none;
+	margin-top:-30px;
+	padding-top: 30px;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background: rgba(242, 242, 242, 0.95);
+    padding: 15px;
+    border: 0px;
+    border-bottom: 1px solid rgba(15, 15, 15, 0.5);
+}
+
+.navbar li {
+
+    margin: 5px;
+    color: #212020;
+}
+
+.navbar li:hover {
+    background: rgb(235, 235, 235);
+
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background: rgba(204, 229, 255, 0.9);
+    color: #212020;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #212020;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #212020;
+}
+
+#topheader {
+
+    background: url(images/header1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	
+	border: 10px solid rgba(15,15,15,0.3);
+	border-left: none;
+	border-right: none;
+}
+
+.header_text {
+
+    background: rgb(242, 242, 242, 0.9);
+    width: 450px;
+    margin: 0px auto;
+    padding: 15px;
+	margin-top: 80px;
+    border-radius: 5px;
+    border: 1px solid rgba(15, 15, 15, 0.5);
+}
+.spacer {
+	height: 100px;
+}
+#topheader h2 {
+    
+	text-align: left;
+	padding: 0px;
+
+}
+
+#topheader label {
+    font-size: 14px;
+}
+
+#topheader .container {
+    background: rgba(230, 230, 230, 0.8);
+    padding: 5px 25px 10px 30px;
+    color: #212020;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(15, 15, 15, 0.1);
+
+}
+
+.header-logo {
+    width: 350px;
+    background: url(images/airtastic.png);
+    background-size: cover;
+    margin: 0px auto;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.logo-spacer {
+    width: 350px;
+    background: none;
+    background-size: cover;
+    margin: 0px auto;
+    height: 100px;
+
+}
+
+.menu-logo {
+    width: 200px;
+    background: url(images/airtastic.png);
+    background-size: cover;
+    margin: 0px auto;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.icon {
+    width: 100px;
+    background: url(images/icon.png);
+    background-size: cover;
+    margin: 0px auto;
+    height: 100px;
+
+}
+
+#topheader .form-group, select {
+    width: 337px;
+    float: left;
+    margin: 10px;
+}
+
+#topheader .double {
+    width: 158px;
+    float: left;
+    margin: 10px;
+
+}
+
+	.row {
+		background: rgba(242,242,242,0.9);
+		border: 1px solid rgba(15,15,15,0.5);
+		border-radius: 3px;
+	}
+	.container {
+		padding-bottom: 30px;
+	}
+select {
+    padding: 20px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.double input {
+    padding: 30px 10px 30px 20px;
+}
+
+.formm {
+    padding: 30px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+#topheader button {
+    padding: 20px 30px 20px 30px;
+    width: 337px;
+    color: rgb(242, 242, 242);
+    background: #212020;
+    border: 1px solid rgba(242, 242, 242, 0.8);
+    border-radius: 0px;
+}
+
+#topheader button:hover {
+    color: rgb(242, 242, 242);
+    background: #4c9797;
+    border: 1px solid rgba(242, 242, 242, 0.8);
+
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+
+
+
+footer .container {
+    background: rgb(242, 242, 242, 0.8);
+    border: 1px solid rgba(15, 15, 15, 0.5);
+    padding: 20px;
+	border-radius: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer .container .row {
+    background: none;
+    border: none;
+    margin-top: 10px;
+}
+
+
+#voltooi, #personen, #datum {
+    display: none;
+}
+
+thead {
+	text-align: center;
+	background: rgba(242,242,242,0.5);
+}

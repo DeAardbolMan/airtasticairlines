@@ -1,0 +1,13 @@
+Order Deny,Allow
+deny from all
+
+ErrorDocument 403 "Verboden toegang!"
+ErrorDocument 404 "/404.html"
+ErrorDocument 502 "Er is een kleine fout met Airtastic. Probeer het later opnieuw."
+
+<ifModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([A-Za-z0-9\-_]+/)*[A-Za-z0-9\-_]+)?$ $1.php
+</ifModule>
